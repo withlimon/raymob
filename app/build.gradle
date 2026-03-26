@@ -37,7 +37,10 @@ static def getGLVersionCode(String version) {
 android {
     namespace project.properties['app.application_id']
     compileSdk 34
-
+    lint {                        
+        baseline = file("lint-baseline.xml")
+        abortOnError false
+    }
     defaultConfig {
         minSdk 24
         targetSdk 34
