@@ -2,7 +2,7 @@
 #include "raymob.h" // This header can replace 'raylib.h' and includes additional functions related to Android.
 int main(void)
 {
-    InitWindow(0, 0, "raylib [core] example - basic window");
+    InitWindow(0, 0, "Hare Krishna!");
     SetTargetFPS(60);               
 
     // Main game loop
